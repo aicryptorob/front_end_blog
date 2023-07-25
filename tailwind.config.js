@@ -5,6 +5,10 @@ module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
   },
+  // adding cloundinary for remote image support
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
   content: [
     './pages/**/*.js',
     './components/**/*.js',
