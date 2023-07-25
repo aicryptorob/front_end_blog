@@ -7,8 +7,9 @@ module.exports = {
   },
   // adding cloundinary for remote image support
   images: {
-    domains: ['res.cloudinary.com'],
+    unoptimized: true,
   },
+
   content: [
     './pages/**/*.js',
     './components/**/*.js',
