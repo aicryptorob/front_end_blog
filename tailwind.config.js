@@ -5,11 +5,6 @@ module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
   },
-  // adding cloundinary for remote image support
-  images: {
-    unoptimized: true,
-  },
-
   content: [
     './pages/**/*.js',
     './components/**/*.js',
